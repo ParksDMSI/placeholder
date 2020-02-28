@@ -33,10 +33,12 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
 
 ##### Agility
 1. Checkout develop and pull
-2. Checkout a new branch under the name of the feture being added
-3. Navigate into the package edited and update the package yarn should reference
+2. Checkout a new branch under the name of the feature being added
+3. Update version number in package.json
+    -`"wedgekit/{package name}":"{most recent version}"`
+4. Navigate into the package edited and update the package yarn should reference
     - `yarn add @wedgekit/{package name}`
-4. Navigate to the parent agility repo and rerun yarn
+5. Navigate to the parent agility repo and rerun yarn
     - 'yarn'
 
 ##### Storybook
