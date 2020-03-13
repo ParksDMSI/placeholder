@@ -40,6 +40,7 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
     - `yarn add @wedgekit/{package name}`
 5. Navigate to the parent agility repo and rerun yarn
     - `yarn`
+6. Create a pull request to develop
 
 ##### Storybook
 1. Checkout develop and pull
