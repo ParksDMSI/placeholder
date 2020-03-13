@@ -1,5 +1,5 @@
 ## Wedgekit Release instructions
-Once you have commited your wedgekit changes to a feature branch, created a pull requet and merged it, it is time to release your changes so that our other repositories can utilize the changes.
+Once you have commited your wedgekit changes to a feature branch, created a pull request and merged it, it is time to release your changes so that our other repositories can utilize the changes.
 
 #### Release PR instructions
 1. Create a release branch from develoop
@@ -16,7 +16,7 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
     - `git push origin @wedgekit/{package name}@#.#.#`
 6. Merge the release PR
 
-#### Update yarn version #'s
+#### Update yarn version #'s in wedgekit
 1. Checkout master
     - `git checkout master`
 2. Pull to make sure your local instance is up to date
