@@ -55,4 +55,16 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
 8. Manually pull the most recent version using docker
     - `docker pull dmsi/storybook-public:develop && sudo systemctl stop storybook && sudo systemctl start storybook`
 
+##### Developing on wedgekit for Agility
+1. Make your changes in wedgekit
+2. Update the version number in packages.json (#.#.#-tc.#) 
+3. Yarn build in correct repo
+3. npm publish --tag test 
+
+Within Agility:
+1. Update version number for depenedent repo in packages.json 
+   - A global search for `"@wedgekit/{your component}":` may be helpful to find all instances
+2.` Yarn `
+3.Yarn start
+
 ##<span style="color:green">Develop with your new wedgekit changes!</span>
