@@ -63,7 +63,7 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
 
 #### Within Agility:
 1. Update version number for depenedent repo in packages.json 
-   - A global search for `"@wedgekit/{your component}":` may be helpful to find all instances
+    - A global search for `"@wedgekit/{your component}":` may be helpful to find all instances
 2.` Yarn `
 3.Yarn start
 
