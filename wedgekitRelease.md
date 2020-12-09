@@ -61,7 +61,7 @@ Once you have commited your wedgekit changes to a feature branch, created a pull
 3. Yarn build in correct repo
 3. npm publish --tag test 
 
-Within Agility:
+#### Within Agility:
 1. Update version number for depenedent repo in packages.json 
    - A global search for `"@wedgekit/{your component}":` may be helpful to find all instances
 2.` Yarn `
